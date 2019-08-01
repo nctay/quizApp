@@ -24,7 +24,6 @@ module.exports = {
   },
   rules: {
     'prettier/prettier': ['error', prettierOptions],
-    'arrow-body-style': [2, 'as-needed'],
     'class-methods-use-this': 0,
     'import/imports-first': 0,
     'import/newline-after-import': 0,
@@ -60,7 +59,6 @@ module.exports = {
     'newline-per-chained-call': 0,
     'no-confusing-arrow': 0,
     'no-console': 1,
-    'no-unused-vars': 2,
     'no-use-before-define': 0,
     'prefer-template': 2,
     'react/destructuring-assignment': 0,
